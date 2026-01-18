@@ -113,10 +113,6 @@ GET /images/{image_id}
 
 ## Integration with Spring Boot
 
-The Spring Boot application calls this service via HTTP. See the Java implementation in:
-- `DoclingExtractionService.java` - Service interface
-- `DoclingExtractionServiceImpl.java` - WebClient implementation
-
 Configure the service URL in `application.properties`:
 ```properties
 docling.service.url=http://localhost:8081
